@@ -1,7 +1,7 @@
 // src/components/Navbar.tsx
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const NavigationBar: React.FC = () => {
   return (
@@ -11,15 +11,15 @@ const NavigationBar: React.FC = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <LinkContainer to="/">
-              <Nav.Link>Home</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/about">
-              <Nav.Link>About</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/portfolio">
-              <Nav.Link>Portfolio</Nav.Link>
-            </LinkContainer>
+            <Nav.Link as={NavLink} to="/" exact>
+              Home
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/about">
+              About
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/portfolio">
+              Portfolio
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

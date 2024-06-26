@@ -20,6 +20,9 @@ const NavigationBar: React.FC = () => {
             <Nav.Link as={NavLink} to="/portfolio">
               Portfolio
             </Nav.Link>
+            <Nav.Link as={NavLink} to="/contact">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

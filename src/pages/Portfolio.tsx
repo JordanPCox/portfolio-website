@@ -5,19 +5,19 @@ const projects = [
     {
         title: 'Gnocchia',
         description: 'A take on the classic Snake game using just JavaScript, HTML, and CSS.',
-        imageUrl: '../assets/gnocchia.png',
+        imageUrl: '../../public/gnocchia.png',
         link: 'https://gnocchia.netlify.app/'
     },
     {
         title: 'Escape Plan',
         description: 'A work-in-progress build of a web application for creating, sharing, and discovering travel itineraries.',
-        imageUrl: '../assets/escapeplan.png',
+        imageUrl: '../../public/escapeplan.png',
         link: 'http://escapeplan.onrender.com/'
     },
     {
         title: 'TomeTracker',
         description: 'A companion web application for Dungeons & Dragons campaigns.',
-        imageUrl: '../assets/tometracker.png',
+        imageUrl: '../../public/tometracker.png',
         link: 'https://tome-tracker.onrender.com/'
     }
 ]

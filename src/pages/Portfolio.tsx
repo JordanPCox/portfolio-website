@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import '../styles/portfolio.scss'
 
 const projects = [
     {
         title: 'Gnocchia',
-        description: 'A take on the classic Snake game using just JavaScript, HTML, and CSS.',
+        description: 'A take on the classic Snake game using pure JavaScript, HTML, and CSS.',
         imageUrl: '../../public/gnocchia.png',
         link: 'https://gnocchia.netlify.app/'
     },
